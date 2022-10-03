@@ -1,22 +1,18 @@
 public class AmericanToOldRussian {
 
     public static double yardToArshin(double yard) {
-        double arshin = -1;
-        return arshin;
+        return yard * 1.2857143;
     }
 
     public static double arshinToYard(double arshin) {
-        double yard = -1;
-        return yard;
+        return arshin * 0.777777769;
     }
 
     public static double russianPoundToAmericanPound(double rPound) {
-        double aPound = -1;
-        return aPound;
+        return rPound * 0.902819514;
     }
 
     public static double americanPoundToRussianPound(double aPound) {
-        double rPound = -1;
-        return rPound;
+        return aPound * 1.1076411;
     }
 }
