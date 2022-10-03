@@ -1,22 +1,18 @@
 public class OldrussianSI {
 
     public static double arshinToMeter(double arshin){
-        double meter = -1;
-        return meter;
+        return arshin * 0.7112;
     }
 
     public static double meterToArshin(double meter){
-        double arshin = -1;
-        return arshin;
+        return meter * 1.4060742407;
     }
 
     public static double funtToKilogramm(double funt){
-        double kg = -1;
-        return kg;
+        return funt * 0.409512;
     }
 
     public static double kilogrammToFunt(double kg){
-        double funt = -1;
-        return funt;
+        return kg * 2.4419307;
     }
 }
