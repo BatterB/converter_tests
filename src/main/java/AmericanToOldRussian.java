@@ -5,6 +5,7 @@ public class AmericanToOldRussian {
     }
 
     public static double arshinToYard(double arshin) {
+
         return arshin * 0.777777769;
     }
 
