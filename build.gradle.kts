@@ -16,6 +16,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.0")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
     implementation(kotlin("stdlib-jdk8"))
+    testImplementation(kotlin("test"))
 }
 
 tasks.getByName<Test>("test") {
